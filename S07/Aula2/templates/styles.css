@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    height: 72px;
+}
+
+main {
+    height: 80vh;
+}
+
+a {
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;    
+}
+.coluna1, .coluna2 {
+    width: 50%;
+    flex: 1;    
+}
+.coluna1 {
+    background-color: gray;
+}
+
+.coluna2 {
+    background-color: rgb(195, 195, 195);
+}
