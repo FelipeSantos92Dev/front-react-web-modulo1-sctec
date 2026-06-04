@@ -6,6 +6,7 @@ const userQuestion = document.querySelector('.user-question')
 
 let corAplicada = 'orange'
 
+
 btnLaranja.addEventListener('click', () => {
     userQuestion.classList.remove(corAplicada)
     userQuestion.classList.add('orange')
